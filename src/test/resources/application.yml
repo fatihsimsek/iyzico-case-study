@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:hsqldb:hsql:/localhost:9001/iyzicodb
+    driverClassName: org.hsqldb.jdbcDriver
+    username: sa
+    password: 1234
+  jpa:
+    show-sql: true
+    open-in-view: false
+sandbox:
+  enabled: false
+  url: https://sandbox-api.iyzipay.com
+  apiKey: sandbox-UCutI9Z4MsRrqu2TlJsAQvF5LAb97Y2y
+  secretKey: sandbox-bHfCQPMmrjxRcBGGo7nMXn7vbD9QqxXk
