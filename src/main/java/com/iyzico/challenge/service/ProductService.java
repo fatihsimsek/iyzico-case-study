@@ -23,7 +23,6 @@ public class ProductService {
     private ProductMapper productMapper;
     private MessageSource messageSource;
 
-    @Autowired
     public ProductService(ProductRepository productRepository,
                           MessageSource messageSource,
                           ProductMapper productMapper) {

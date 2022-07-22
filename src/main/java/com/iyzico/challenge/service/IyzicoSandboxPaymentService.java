@@ -36,7 +36,6 @@ public class IyzicoSandboxPaymentService implements PaymentService {
     private Options options;
     private CreatePaymentRequest request;
 
-    @Autowired
     public IyzicoSandboxPaymentService(PaymentRepository paymentRepository) {
         this.paymentRepository = paymentRepository;
     }

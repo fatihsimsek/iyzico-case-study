@@ -12,7 +12,6 @@ public class PaymentServiceClients {
 
     private PaymentService paymentService;
 
-    @Autowired
     public PaymentServiceClients(PaymentService paymentService) {
         this.paymentService = paymentService;
     }

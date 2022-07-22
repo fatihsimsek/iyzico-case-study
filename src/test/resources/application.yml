@@ -7,6 +7,9 @@ spring:
   jpa:
     show-sql: true
     open-in-view: false
+logging:
+  level:
+    root: TRACE
 sandbox:
   enabled: false
   url: https://sandbox-api.iyzipay.com

@@ -15,8 +15,12 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api/v1/order")
 public class OrderController {
-    @Autowired
+
     private OrderService orderService;
+
+    public OrderController(OrderService orderService) {
+        this.orderService = orderService;
+    }
 
     @PostMapping
     @Transactional

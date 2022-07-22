@@ -20,7 +20,6 @@ public class IyzicoPaymentService implements PaymentService {
     private BankService bankService;
     private PaymentRepository paymentRepository;
 
-    @Autowired
     public IyzicoPaymentService(BankService bankService, PaymentRepository paymentRepository) {
         this.bankService = bankService;
         this.paymentRepository = paymentRepository;

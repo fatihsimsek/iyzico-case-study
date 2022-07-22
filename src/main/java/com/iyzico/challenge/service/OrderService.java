@@ -19,7 +19,6 @@ public class OrderService {
     private MessageSource messageSource;
     private LockService lockService;
 
-    @Autowired
     public OrderService(PaymentService paymentService,
                         ProductService productService,
                         LockService lockService,
