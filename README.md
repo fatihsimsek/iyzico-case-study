@@ -1,4 +1,4 @@
-# iyzico coding challenge
+# iyzico coding challenge (Passed)
 
 ## Running HSQLDB
 
